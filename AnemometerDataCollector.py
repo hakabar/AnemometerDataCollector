@@ -25,7 +25,7 @@ import sys
 def create_fileName():
     #get current date
     dt= datetime.datetime.today()
-    fileName= 'dataFromAnemometer_'+str(dt.year)+'_'+str(dt.month)+'_'+str(dt.day)+'.log'
+    fileName= 'dataFromAnemometer_'+str(dt.year)+'_'+str(dt.month)+'_'+str(dt.day)+'_'+str(dt.hour)+'_'+str(dt.minute)+'_'+str(dt.second)+'.log'
     return fileName
 
 
